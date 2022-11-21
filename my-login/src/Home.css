@@ -1,0 +1,15 @@
+.page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+  justify-content: space-around;
+  background-color: aquamarine;
+  height: 12vh;
+  width: 100vw;
+}
+.page > p{
+  font-size: larger;
+  font-weight: 700;
+  margin: 10px;
+}
