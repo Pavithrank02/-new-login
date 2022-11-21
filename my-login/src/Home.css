@@ -8,8 +8,20 @@
   height: 12vh;
   width: 100vw;
 }
-.page > p{
+.page > Link > p{
   font-size: larger;
   font-weight: 700;
   margin: 10px;
+}
+.container{
+  display:flex;
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  right: 25%;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: space-around;
+  border: 5px solid rgb(190, 72, 72);
+  border-width: 100px;
 }
