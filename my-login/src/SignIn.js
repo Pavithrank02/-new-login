@@ -8,16 +8,21 @@ function SignIn() {
   return (
     <div className='container'>
       <form>
-      <TextField id="outlined-basic" label="Username" variant="outlined" />
-      <TextField
+        <div className='textfield-container'>
+        <TextField 
+          id="outlined-basic" 
+          label="Username" 
+          variant="outlined" />
+        <TextField
           id="outlined-password-input"
           label="Password"
           type="password"
           autoComplete="current-password"
         />
-      <Button type="button" color="primary" className="form__custom-button">
-            Log in
-          </Button>
+        </div>
+        <Button type="button" color="primary" className="form__custom-button" variant="outlined">
+          Log in
+        </Button>
       </form>
     </div>
   )

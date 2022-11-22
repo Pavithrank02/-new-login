@@ -14,14 +14,30 @@
   margin: 10px;
 }
 .container{
-  display:flex;
+  display: flex;
   position: absolute;
+  justify-content: center;
+  height: 30vh;
+  width: 40vw;
   top: 100px;
   left: 25%;
   right: 25%;
+  background-color: aquamarine;
+  padding: 20px 20px;
+}
+
+.textfield-container{
+  display: flex;
   flex-direction: column;
-  justify-items: flex-start;
-  justify-content: space-around;
-  border: 5px solid rgb(190, 72, 72);
-  border-width: 100px;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.textfield-container >.MuiFormControl-root {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.form__custom-button{
+  left: 25%;
+
 }
